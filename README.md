@@ -2,8 +2,7 @@
 
 _e(g)it --> e(d)it, e(g)it is an app for replacing text in many files across multiple GitHub repositories._
 
-[![CodeQL](https://github.com/nawinto99/egit/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/nawinto99/egit/actions/workflows/codeql-analysis.yml) [![PyPI version](https://badge.fury.io/py/egit.svg)](https://badge.fury.io/py/egit) [![Total alerts](https://img.shields.io/lgtm/alerts/g/nawinto99/egit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/nawinto99/egit/alerts/) [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/nawinto99/egit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/nawinto99/egit/context:python) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/f968199ec9f24eb895d976662ceed2ee)](https://www.codacy.com/gh/nawinto99/egit/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nawinto99/egit&amp;utm_campaign=Badge_Grade) [![DeepSource](https://deepsource.io/gh/nawinto99/egit.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/nawinto99/egit/?ref=repository-badge)
-
+[![CodeQL](https://github.com/datadlog/egit/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/datadlog/egit/actions/workflows/codeql-analysis.yml) [![PyPI version](https://badge.fury.io/py/egit.svg)](https://badge.fury.io/py/egit) [![Total alerts](https://img.shields.io/lgtm/alerts/g/datadlog/egit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/datadlog/egit/alerts/) [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/datadlog/egit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/datadlog/egit/context:python)
 ## Features
 
 -   Clones the configured Github repositories to your local.
@@ -33,7 +32,7 @@ Check out the following website for further information **[egit]**
 
 MIT
 
-[egit]: https://nawinto99.github.io/egit/
+[egit]: https://datadlog.github.io/egit/
 [python]: https://www.python.org/
 [gitpython]: https://gitpython.readthedocs.io/en/stable/tutorial.html
 [pyyaml]: https://pyyaml.org/wiki/PyYAML
