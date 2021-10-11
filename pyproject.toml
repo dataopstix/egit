@@ -8,7 +8,7 @@ maintainers = ["Naveen Thurimerla <nawinto99@gmail.com>"]
 name = "egit"
 readme = "README.md"
 repository = "https://github.com/datadlog/egit"
-version = "1.0.0"
+version = "2.0.0"
 
 [tool.poetry.dependencies]
 
