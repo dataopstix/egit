@@ -1,6 +1,6 @@
 # e(g)it
 
-_e(g)it --> e(d)it, e(g)it is an app for replacing text in many files across multiple GitHub repositories._
+_e(g)it is an app for replacing text in files across multiple GitHub repositories._
 
 [![CodeQL](https://github.com/datadlog/egit/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/datadlog/egit/actions/workflows/codeql-analysis.yml) [![PyPI version](https://badge.fury.io/py/egit.svg)](https://badge.fury.io/py/egit) [![Total alerts](https://img.shields.io/lgtm/alerts/g/datadlog/egit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/datadlog/egit/alerts/) [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/datadlog/egit.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/datadlog/egit/context:python)
 ## Features

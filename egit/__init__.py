@@ -1,7 +1,7 @@
 """Egit module!"""
 __author__ = "Naveen Thurimerla"
 __email__ = "nawinto99@gmail.com"
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 __copyright__ = "Copyright 2021, www.nawinto99.com"
 __credits__ = "Naveen Thurimerla"
 __license__ = "MIT"

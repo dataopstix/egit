@@ -8,7 +8,7 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at https://github.com/nawinto99/egit/issues.
+Report bugs at https://github.com/datadlog/egit/issues.
 
 If you are reporting a bug, please include:
 
@@ -34,7 +34,7 @@ articles, and such.
 
 ### Submit Feedback
 
-The best way to send feedback is to file an issue at https://github.com/nawinto99/egit/issues.
+The best way to send feedback is to file an issue at https://github.com/datadlog/egit/issues.
 
 If you are proposing a feature:
 
@@ -88,5 +88,5 @@ Before submitting a pull request, make sure it complies with the following guide
 1. Tests should be included in the pull request.
 2. The docs should be updated if the pull request adds any functionality. Put your new feature in a function with a docstring and add it to the README.md feature list.
 3. The pull request should work for Python 3.9. Check
-   https://github.com/nawinto99/egit/actions
+   https://github.com/datadlog/egit/actions
    and Check to see if the tests pass for the Python version.
