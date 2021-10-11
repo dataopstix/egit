@@ -1,0 +1,124 @@
+# Project information
+site_name: e(g)it
+site_url: https://datadlog.github.io/egit/
+site_author: Naveen Thurimerla
+site_description: >-
+    e(g)it --> e(d)it, e(g)it is an app for replacing text in many files across multiple GitHub repositories.
+
+# Repository
+repo_name: datadlog/egit
+repo_url: https://github.com/datadlog/egit
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2021 Naveen Thurimerla
+
+# Configuration
+theme:
+    name: "material"
+    logo: assets/favicon.png
+
+    # Static files
+    static_templates:
+        - 404.html
+
+    # Don't include MkDocs' JavaScript
+    include_search_page: false
+    search_index_only: true
+
+    # Default values, taken from mkdocs_theme.yml
+    language: en
+    features:
+        - content.tabs.link
+        # - navigation.instant
+        - navigation.sections
+        - navigation.tabs
+        - navigation.tracking
+        - search.highlight
+        - search.share
+        - search.suggest
+    palette:
+        - scheme: default
+          primary: indigo
+          accent: indigo
+          toggle:
+              icon: material/weather-night
+              name: Switch to dark mode
+        - scheme: slate
+          primary: red
+          accent: red
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to light mode
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/favicon.png
+    icon:
+        logo: logo
+
+# Plugins
+plugins:
+    - include-markdown
+    - search
+
+# Customization
+extra:
+    generator: false
+    analytics:
+        provider: google
+        property: G-SBZJQQQ1LW
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/datadlog
+        - icon: fontawesome/brands/docker
+          link: https://hub.docker.com/r/datadlog/egit/
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/datadlog
+
+# Extensions
+markdown_extensions:
+    - admonition
+    - abbr
+    - attr_list
+    - def_list
+    - footnotes
+    - meta
+    - md_in_html
+    - toc:
+          permalink: true
+    - pymdownx.arithmatex:
+          generic: true
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink:
+          repo_url_shorthand: true
+          user: squidfunk
+          repo: mkdocs-material
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.tabbed
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.tilde
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg # Page tree
+
+nav:
+    - Home: index.md
+    - Getting started:
+          - Installation: getting-started.md
+          - Usage: usage.md
+          - Troubleshooting: troubleshooting.md
+          - Authors: authors.md
+          - Contributing: contributing.md
+          - License: license.md
+          - Releases:
+                - Changelog: changelog.md

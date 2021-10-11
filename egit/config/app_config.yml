@@ -1,0 +1,7 @@
+main:
+    github_account: datadlog
+    base_branch: dev
+    feature_branch: feature_001_replace_text
+    replace_text: { "abcdef": "ijklmno", "hello123": "war123" }
+    file_pattern: "*.json" # For all the files replace ""
+    github_access_token: <<provide access token>>
