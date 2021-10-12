@@ -40,13 +40,13 @@ theme:
     palette:
         - scheme: default
           primary: indigo
-          accent: indigo
+          accent: amber
           toggle:
               icon: material/weather-night
               name: Switch to dark mode
         - scheme: slate
-          primary: red
-          accent: red
+          primary: orange
+          accent: blue
           toggle:
               icon: material/weather-sunny
               name: Switch to light mode
